@@ -13,9 +13,5 @@ router.post("/add",async(req,res)=>{
     //res.send("ad")
 })
 
-router.get("/viewall",async(req,res)=>{  //display
-    let data=await moviemodel.find()
-    res.json(data)
-    //res.send("vi")
-})
+
 module.exports=router
